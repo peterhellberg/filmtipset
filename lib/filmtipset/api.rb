@@ -77,14 +77,13 @@ module Filmtipset
     private
 
     def action(name, params, *required)
+      access_key_is_required
       verify_required(params, required)
 
       get params.merge(action: name)
     end
 
     def get(params = {})
-      access_key_is_required
-
       fetch prepared_uri(params)
     end
 
