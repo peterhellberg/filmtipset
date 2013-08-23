@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Peter Hellberg"]
   gem.email         = ["peter@c7.se"]
   gem.summary       = "API client for the Filmtipset API (requires access key)"
-  gem.homepage      = "https://github.com/peterhellberg/skatteverket"
+  gem.homepage      = "https://github.com/peterhellberg/filmtipset"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
